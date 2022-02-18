@@ -11,3 +11,9 @@ intelligent. Votre programme reçoit en entrée un flux de commandes. les six ty
 est la plus proche.);
 5. l'utilisation des produits d'une recette.
 6. l'affichage des produits disponibles.
+
+Le programme doit traiter les commandes en continue, comme s'il était utilisé en temps réel.
+Cela implique que les commandes doivent être traitéesséquentiellement dans leur ordre d'apparition dans l'entrée.
+Une fois une commande lue, il faut la traiter immédiatement afin d'afficher son résultat.
+Il nefaut surtout pas lire toutes les commandes en premier et ensuite effectuer les traitements.
+Pour faciliter leparsingau moyen destd::cin>>, il y a au moins un espace blanc (espace, tabulation ou retour de ligne) après chaque chaîne de caractèreou nombre.
